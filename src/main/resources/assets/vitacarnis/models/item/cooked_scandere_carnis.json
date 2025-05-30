@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vitacarnis:item/cooked_scandere_carnis"
+  }
+}
