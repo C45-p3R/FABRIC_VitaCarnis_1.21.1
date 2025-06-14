@@ -1,6 +1,7 @@
 package net.casper.vitacarnis.item;
 
 import net.casper.vitacarnis.VitaCarnis;
+import net.casper.vitacarnis.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SCANDERE_CARNIS);
                         entries.add(ModItems.COOKED_SCANDERE_CARNIS);
+                        entries.add(ModBlocks.CRAWL_TENDRILS);
                     }).build()
             );
 
